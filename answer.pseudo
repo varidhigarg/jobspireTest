@@ -1,0 +1,7 @@
+#library for random number generator
+import random
+
+
+def func(name):
+	#using range from 7 to 15 because this generates lower limit to upper limit lower included upper not
+	print(name,random.randrange(7,15))
